@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+/*Index page*/
+header {
+  background-color:rgb(8, 8, 72);
+  color: #fff;
+  padding: 10px 5rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex; 
+  justify-content: space-between; 
+}
+
+nav ul li {
+  display: inline-block; 
+  margin-right: 20px; 
+  border: 1px solid rgb(8, 8, 72); 
+  padding: 8px 30px; 
+}
+
+nav ul li:hover {
+  background-color: orange; 
+}
+
+nav ul li a {
+  text-decoration: none; 
+  color: #fff; 
+  font-weight:bolder; 
+  transition: color 0.3s ease;
+}
+
+nav ul li:hover a {
+  color: black;
+}
+
+
+.information {
+  background-color: #f0f0f0; 
+  border: 2px solid #ccc; 
+  padding: 50px; 
+  margin: 3rem 8rem; 
+  border-radius: 5px;
+}
+
+.header {
+  text-align: center; 
+  margin-top: 30px; 
+  color: tomato;
+}
+
+nav ul li.active {
+  background-color: orange; 
+}
+
+nav ul li.active a {
+  color: black; 
+}
+
+/*------------------------------------------------------------------*/
+/*Post jobs form + Search jobs form*/
+.Ta1 h2{
+  text-align: center; 
+  margin-top: 1px; 
+  color:navy;
+  font-weight: bold;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.Ta1 {
+  width: 45%;
+  padding: 20px;
+  border: 3px solid grey;
+  border-radius: 5px;
+  margin: 50px auto;
+}
+
+.Ta1 label {
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 8px;
+  width: 30%; /* Adjust label width */
+  text-align: left; /* Align label text to left */
+}
+
+/* Style form inputs */
+.Ta1 input[type="text"],
+.Ta1 textarea,
+.Ta1 select {
+  width: 50%; /* Adjust input width */
+  display: inline-block;
+  vertical-align:middle;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.Ta1 input[type="submit"],
+.Ta1 input[type="reset"] {
+  background-color:rgb(8, 8, 72);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Ta1 input[type="submit"]:hover,
+.Ta1 input[type="reset"]:hover {
+  background-color: orange;
+  color: black;
+}
+
+.Ta1 strong {
+  color: red;
+}
+
+.Ta1 a {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.Ta1 a:hover {
+  text-decoration: underline;
+}
+
+/*------------------------------------------------------------------*/
+/*Post jobs process*/
+.directing a{
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.directing a{
+  text-decoration: underline;
+}
+
+.postJobError{
+  margin-top: 5rem;
+}
